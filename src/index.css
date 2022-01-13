@@ -1,13 +1,10 @@
 body {
+  background-color: #f2f2f2;
+  font-family: soleil !important;
+  color: #0a033c;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  min-height: 100%;
 }

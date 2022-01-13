@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Soleil light';
+  src: local('SoleilLight'), url('./SoleilLight.otf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Soleil';
+  src: local('SoleilRegular'), url('./SoleilRegular.otf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Soleil Bold';
+  src: local('SoleilBold'), url('./SoleilBold.otf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Soleil Book';
+  src: local('SoleilBook'), url('./SoleilBook.otf') format('truetype');
+  font-weight: normal;
+}
