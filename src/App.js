@@ -1,10 +1,12 @@
 import './App.css';
-import Processes from './components/Process';
+import Processes from './components/Processes';
+import Benefits from './components/Benefits';
 
 function App() {
   return (
     <>
     <Processes />
+    <Benefits />
     </>
   );
 }
