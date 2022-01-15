@@ -1,0 +1,89 @@
+.run-your-business {
+  height: 340px;
+  display: flex;
+  width: 1240px;
+  margin: auto;
+
+  .card {
+    width: 100%;
+    max-width: 560px;
+  }
+
+  .contents {
+    width: 100%;
+    max-width: 540px;
+    margin-left: auto;
+
+    h2 {
+      margin-bottom: 32px;
+      margin-top: 0;
+      font-family: regulator-nova, sans-serif;
+      font-size: 44px;
+      line-height: 1em;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6em;
+      color: rgba(10, 3, 60, 0.6);
+      font-weight: 300;
+      font-family: soleil, sans-serif;
+    }
+
+    .actions {
+      .button {
+        overflow: hidden;
+
+        position: relative;
+
+        span {
+          display: inline-block;
+          transition: all ease-in 0.2s;
+        }
+
+        .text-2 {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+
+          transform: translate(-50%, -250%);
+        }
+
+        &:hover {
+          .btn-text {
+            transition: all ease-in 0.2s;
+            transform: translateY(250%);
+          }
+
+          .text-2 {
+            transition: all ease-in 0.2s;
+            transform: translate(-50%, -50%);
+          }
+        }
+      }
+
+      margin-top: 40px;
+      .learn-more {
+        margin-left: 32px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #0a033c;
+        display: inline-block;
+
+        .right-arrow {
+          display: inline-block;
+          margin-left: 12px;
+          transition: all ease-in 0.2s;
+        }
+
+        &:hover {
+          .right-arrow {
+            transform: translateX(4px);
+            transition: all ease-in 0.2s;
+          }
+        }
+      }
+    }
+  }
+}
